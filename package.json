@@ -1,6 +1,6 @@
 {
   "name": "no-repeated-letters",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Detect repeated letters in a word.",
   "keywords": [
     "word",
