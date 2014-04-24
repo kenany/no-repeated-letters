@@ -24,7 +24,7 @@ test('works', function(t) {
   TEST_ARRAY.forEach(function(value) {
     t.doesNotThrow(function() {
       noRepeatedLetters(value[0]);
-    })
+    });
     t.equal(noRepeatedLetters(value[0]), value[1]);
   });
 });
