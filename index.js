@@ -1,7 +1,9 @@
-var includes = require('lodash.includes');
+'use strict';
+
+import includes from 'lodash.includes';
 
 function noRepeatedLetters(word) {
-  for (var i = 0, length = word.length; i < length; i++) {
+  for (let i = 0, length = word.length; i < length; i++) {
     if (includes(word.slice(0, i), word.charAt(i))) {
       return false;
     }
@@ -9,4 +11,4 @@ function noRepeatedLetters(word) {
   return true;
 }
 
-module.exports = noRepeatedLetters;
+export default noRepeatedLetters;

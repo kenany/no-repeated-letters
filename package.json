@@ -10,22 +10,31 @@
   "repository": "KenanY/no-repeated-letters",
   "license": "MIT",
   "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "jsnext:main": "index.js",
   "files": [
     "index.js",
-    "LICENSE.txt"
+    "LICENSE.txt",
+    "dist"
   ],
   "directories": {
     "test": "test"
   },
   "scripts": {
+    "build": "rollup -c",
+    "pretest": "npm run build",
     "test": "tape test/index.js"
   },
   "dependencies": {
     "lodash.includes": "^4.3.0"
   },
   "devDependencies": {
+    "babel-plugin-external-helpers": "^6.8.0",
+    "babel-plugin-transform-es2015-block-scoping": "^6.10.1",
+    "babelrc-rollup": "^3.0.0",
     "lodash.isfunction": "^3.0.8",
+    "rollup": "^0.34.10",
+    "rollup-plugin-babel": "^2.6.1",
     "tape": "^4.6.0"
   }
 }

@@ -1,4 +1,6 @@
-var noRepeatedLetters = require('../');
+'use strict';
+
+var noRepeatedLetters = require('../dist/');
 var test = require('tape');
 var isFunction = require('lodash.isfunction');
 
