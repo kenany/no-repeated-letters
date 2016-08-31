@@ -1,5 +1,3 @@
-'use strict';
-
 import includes from 'lodash.includes';
 
 function noRepeatedLetters(word) {
