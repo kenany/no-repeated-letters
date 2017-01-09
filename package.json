@@ -35,7 +35,7 @@
     "lodash.includes": "^4.3.0"
   },
   "devDependencies": {
-    "@kenan/eslint-config": "^3.0.0",
+    "@kenan/eslint-config": "^4.0.0",
     "eslint": "^3.4.0",
     "lodash.isfunction": "^3.0.8",
     "nyc": "^10.0.0",
