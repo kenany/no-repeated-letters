@@ -36,6 +36,7 @@
   },
   "devDependencies": {
     "@kenan/eslint-config": "^4.0.0",
+    "@kenan/renovate-config": "1.1.1",
     "eslint": "^3.4.0",
     "lodash.isfunction": "^3.0.8",
     "nyc": "^10.0.0",
