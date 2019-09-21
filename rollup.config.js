@@ -14,7 +14,7 @@ export default {
   external: external,
   targets: [
     {
-      dest: pkg['main'],
+      dest: pkg.main,
       format: 'cjs'
     },
     {

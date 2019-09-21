@@ -1,8 +1,9 @@
 'use strict';
 
-var noRepeatedLetters = require('../dist/');
 var test = require('tape');
 var isFunction = require('lodash.isfunction');
+
+var noRepeatedLetters = require('../dist/');
 
 test('exports a function', function(t) {
   t.plan(1);
