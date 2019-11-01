@@ -41,7 +41,7 @@
     "lodash.isfunction": "3.0.9",
     "nyc": "14.1.1",
     "rollup": "0.41.6",
-    "rollup-plugin-buble": "0.15.0",
+    "rollup-plugin-buble": "0.19.8",
     "tape": "4.11.0"
   }
 }
