@@ -25,11 +25,10 @@
   },
   "scripts": {
     "build": "rollup -c",
+    "coverage": "nyc npm test",
     "lint": "eslint *.js test/*.js",
-    "tests-only": "npm run -s build && tape test/index.js",
-    "coverage": "npm run -s build && nyc npm run -s tests-only",
-    "pretest": "npm run -s lint && npm run -s build",
-    "test": "npm run -s tests-only"
+    "pretest": "npm run -s build",
+    "test": "tape test/index.js"
   },
   "dependencies": {
     "lodash.includes": "^4.3.0"
