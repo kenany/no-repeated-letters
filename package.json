@@ -34,7 +34,7 @@
     "lodash.includes": "^4.3.0"
   },
   "devDependencies": {
-    "@kenan/eslint-config": "7.0.0",
+    "@kenan/eslint-config": "8.0.0",
     "@kenan/renovate-config": "1.4.0",
     "@rollup/plugin-buble": "0.21.3",
     "eslint": "7.6.0",
