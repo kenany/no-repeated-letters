@@ -40,7 +40,7 @@
     "eslint": "7.6.0",
     "lodash.isfunction": "3.0.9",
     "nyc": "15.1.0",
-    "rollup": "2.23.1",
+    "rollup": "2.29.0",
     "tape": "5.0.1"
   }
 }
