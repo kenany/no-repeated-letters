@@ -11,7 +11,7 @@
   "license": "MIT",
   "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
   "engines": {
-    "node": ">=10"
+    "node": ">=v16.13.0"
   },
   "main": "dist/index.js",
   "jsnext:main": "dist/index.es.js",
