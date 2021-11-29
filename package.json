@@ -9,7 +9,7 @@
   ],
   "repository": "KenanY/no-repeated-letters",
   "license": "MIT",
-  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "author": "Kenan Yildirim <kenan@kenany.me> (https://kenany.me/)",
   "engines": {
     "node": ">=10"
   },
@@ -28,7 +28,8 @@
     "coverage": "nyc npm test",
     "lint": "eslint *.js test/*.js",
     "pretest": "npm run -s build",
-    "test": "tape test/index.js"
+    "test": "tape test/index.js",
+    "release": "semantic-release"
   },
   "dependencies": {
     "lodash.includes": "^4.3.0"
@@ -37,10 +38,14 @@
     "@kenan/eslint-config": "^9.0.4",
     "@kenan/renovate-config": "^1.5.1",
     "@rollup/plugin-buble": "0.21.3",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "conventional-changelog-conventionalcommits": "^4.6.1",
     "eslint": "^7.32.0",
     "lodash.isfunction": "3.0.9",
     "nyc": "15.1.0",
     "rollup": "^2.59.0",
+    "semantic-release": "^18.0.1",
     "tape": "^5.3.1"
   }
 }
