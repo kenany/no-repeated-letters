@@ -1,3 +1,14 @@
+## [3.0.0](https://github.com/KenanY/no-repeated-letters/compare/2.0.0...3.0.0) (2021-11-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* **ci:** Node.js v10 is no longer supported.
+
+### Features
+
+* **ci:** drop Node.js v10 support ([fe3b383](https://github.com/KenanY/no-repeated-letters/commit/fe3b3837cdbea055d6d8242a1e909988ba0496a8))
+
 ## [2.0.0](https://github.com/KenanY/no-repeated-letters/compare/1.1.1...2.0.0) (2021-11-29)
 
 
