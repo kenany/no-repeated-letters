@@ -14,11 +14,12 @@
     "node": "12 || 14 || >=16"
   },
   "main": "dist/index.js",
-  "jsnext:main": "dist/index.es.js",
+  "module": "dist/index.es.js",
   "files": [
-    "index.js",
+    "dist",
+    "CHANGELOG.md",
     "LICENSE.txt",
-    "dist"
+    "README.md"
   ],
   "directories": {
     "test": "test"
@@ -29,6 +30,7 @@
     "lint": "eslint *.js test/*.js",
     "pretest": "npm run -s build",
     "test": "tape test/index.js",
+    "prepack": "npm run -s build",
     "release": "semantic-release"
   },
   "dependencies": {

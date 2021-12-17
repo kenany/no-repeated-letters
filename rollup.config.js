@@ -18,7 +18,7 @@ export default {
       format: 'cjs'
     },
     {
-      file: pkg['jsnext:main'],
+      file: pkg.module,
       format: 'es'
     }
   ]
