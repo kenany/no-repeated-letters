@@ -1,3 +1,10 @@
+### [3.0.1](https://github.com/KenanY/no-repeated-letters/compare/3.0.0...3.0.1) (2021-12-17)
+
+
+### Bug Fixes
+
+* **ci:** rollup build on prepack ([c20c390](https://github.com/KenanY/no-repeated-letters/commit/c20c3901d4a6e2660ec450fa306c6861c59f7a74))
+
 ## [3.0.0](https://github.com/KenanY/no-repeated-letters/compare/2.0.0...3.0.0) (2021-11-30)
 
 
