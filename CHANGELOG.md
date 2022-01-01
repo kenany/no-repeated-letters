@@ -1,3 +1,10 @@
+## [3.1.0](https://github.com/KenanY/no-repeated-letters/compare/3.0.1...3.1.0) (2022-01-01)
+
+
+### Features
+
+* add JSDoc ([2735d3d](https://github.com/KenanY/no-repeated-letters/commit/2735d3dd8cf0b34a8047eb4389ce955c2d399238))
+
 ### [3.0.1](https://github.com/KenanY/no-repeated-letters/compare/3.0.0...3.0.1) (2021-12-17)
 
 
