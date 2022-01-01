@@ -1,9 +1,9 @@
 'use strict';
 
-var test = require('tape');
-var isFunction = require('lodash.isfunction');
+const test = require('tape');
+const isFunction = require('lodash.isfunction');
 
-var noRepeatedLetters = require('../dist/');
+const noRepeatedLetters = require('../dist/');
 
 test('exports a function', function(t) {
   t.plan(1);
@@ -11,7 +11,8 @@ test('exports a function', function(t) {
 });
 
 test('works', function(t) {
-  var TEST_ARRAY = [
+  /** @type {[string, boolean][]} */
+  const TEST_ARRAY = [
     ['a', true],
     ['ab', true],
     ['abc', true],
@@ -24,10 +25,10 @@ test('works', function(t) {
 
   t.plan(TEST_ARRAY.length * 2);
 
-  TEST_ARRAY.forEach(function(value) {
+  for (const value of TEST_ARRAY) {
     t.doesNotThrow(function() {
       noRepeatedLetters(value[0]);
     });
     t.equal(noRepeatedLetters(value[0]), value[1]);
-  });
+  }
 });
