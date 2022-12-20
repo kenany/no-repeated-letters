@@ -1,3 +1,14 @@
+## [4.0.0](https://github.com/KenanY/no-repeated-letters/compare/3.1.0...4.0.0) (2022-12-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v12 is no longer supported.
+
+### Features
+
+* drop Node.js v12 support ([4f9f05a](https://github.com/KenanY/no-repeated-letters/commit/4f9f05ad9ab4e3ed2a0d9329bf96777b2dcdc4bb))
+
 ## [3.1.0](https://github.com/KenanY/no-repeated-letters/compare/3.0.1...3.1.0) (2022-01-01)
 
 
