@@ -11,7 +11,7 @@ export default {
       target: { node: '8.10' }
     })
   ],
-  external: external,
+  external,
   output: [
     {
       file: pkg.main,
