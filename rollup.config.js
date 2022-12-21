@@ -1,16 +1,10 @@
-import buble from '@rollup/plugin-buble';
-
 const pkg = require('./package.json');
 
 const external = Object.keys(pkg.dependencies);
 
-export default {
+module.exports = {
   input: 'index.js',
-  plugins: [
-    buble({
-      target: { node: '8.10' }
-    })
-  ],
+  plugins: [],
   external,
   output: [
     {
