@@ -1,3 +1,10 @@
+## [4.1.0](https://github.com/KenanY/no-repeated-letters/compare/4.0.0...4.1.0) (2022-12-21)
+
+
+### Features
+
+* **deps:** rollup@3.7.5 ([d1354f9](https://github.com/KenanY/no-repeated-letters/commit/d1354f9790bbbe88717b5f0e5584e608e10bfb38))
+
 ## [4.0.0](https://github.com/KenanY/no-repeated-letters/compare/3.1.0...4.0.0) (2022-12-20)
 
 
