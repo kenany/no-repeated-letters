@@ -41,7 +41,7 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "conventional-changelog-conventionalcommits": "^5.0.0",
-    "eslint": "^8.40.0",
+    "eslint": "^8.42.0",
     "lodash.isfunction": "^3.0.9",
     "nyc": "^15.1.0",
     "rollup": "^3.23.1",
