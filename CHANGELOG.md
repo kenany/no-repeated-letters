@@ -1,3 +1,14 @@
+## [5.0.0](https://github.com/kenany/no-repeated-letters/compare/4.1.0...5.0.0) (2023-09-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v14 and v16 are no longer supported.
+
+### Features
+
+* drop Node.js v14 and v16 ([ebf1cb6](https://github.com/kenany/no-repeated-letters/commit/ebf1cb676c26f8feab5bcd64e3c68ccaa298cb1c))
+
 ## [4.1.0](https://github.com/KenanY/no-repeated-letters/compare/4.0.0...4.1.0) (2022-12-21)
 
 
