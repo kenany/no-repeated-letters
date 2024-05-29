@@ -45,7 +45,7 @@
     "lodash.isfunction": "^3.0.9",
     "nyc": "^15.1.0",
     "rollup": "^4.18.0",
-    "semantic-release": "^23.0.8",
+    "semantic-release": "^23.1.1",
     "tape": "^5.7.5"
   }
 }
