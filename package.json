@@ -44,7 +44,7 @@
     "eslint": "8.57.1",
     "lodash.isfunction": "3.0.9",
     "nyc": "17.1.0",
-    "rollup": "4.55.1",
+    "rollup": "4.56.0",
     "semantic-release": "25.0.2",
     "tape": "5.9.0"
   }
