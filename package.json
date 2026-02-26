@@ -43,7 +43,7 @@
     "conventional-changelog-conventionalcommits": "9.1.0",
     "eslint": "8.57.1",
     "lodash.isfunction": "3.0.9",
-    "nyc": "17.1.0",
+    "nyc": "18.0.0",
     "rollup": "4.59.0",
     "semantic-release": "25.0.3",
     "tape": "5.9.0"
