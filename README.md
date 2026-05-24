@@ -4,8 +4,8 @@ Detect repeated letters in a word.
 
 ## Example
 
-``` javascript
-var noRepeatedLetters = require('no-repeated-letters');
+```javascript
+import { noRepeatedLetters } from 'no-repeated-letters';
 
 noRepeatedLetters('human');
 // => true
@@ -13,14 +13,14 @@ noRepeatedLetters('human');
 
 ## Installation
 
-``` bash
+```bash
 $ npm install no-repeated-letters
 ```
 
 ## API
 
-``` javascript
-var noRepeatedLetters = require('no-repeated-letters');
+```javascript
+import { noRepeatedLetters } from 'no-repeated-letters';
 ```
 
 ### noRepeatedLetters(word)
